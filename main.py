@@ -1,0 +1,1 @@
+print("HIPPAA disclosure: All names and lab values used in this program are for demonstration purposes only.\n No real patient information was used.\nAlways use your clinical judgement, facility protocols and physician recommendations.")
