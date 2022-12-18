@@ -1,7 +1,10 @@
 class Patient:
     # Every patient object initialized gets name, age and insurance company attributes
     def __init__(self, name, age, insurer):
-        self.demographics = {'patient_name': name,
+        self.name = name
+        self.age = age
+        self.insurer = insurer
+        self.allinfo = {'patient_name': name,
                              'patient_age': age,
                              'insurance_company': insurer}
         self.labs = {}
