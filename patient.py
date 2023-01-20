@@ -20,3 +20,5 @@ class Patient:
             new_lab_value_string = float(new_entry_list[1].strip())
             new_lab_value = int(new_lab_value_string)
             self.labs[new_lab_name] = new_lab_value
+
+# Create gui using tkinter
